@@ -1,0 +1,7 @@
+.env
+.venv
+logging.log
+*.log
+.idea/
+/static/xml/*.xml
+/static/pdf/*.pdf
