@@ -23,7 +23,7 @@ async def upload_file(files: List[UploadFile] = File(...)):
                 shutil.copyfileobj(file.file, buffer)
 
     except Exception as e:
-        return f'Erro: {e}'
+        return e
 
     return 'Success!'
 
